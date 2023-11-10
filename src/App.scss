@@ -44,15 +44,24 @@
 
 /* CSS PERSO */
 
+#app {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 p {
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .die {
   width: 100px;
   aspect-ratio: 1/1;
   background-color: lightgray;
-  margin: auto;
+  margin: 0px 40px;
 
   display: flex;
   flex-direction: row;

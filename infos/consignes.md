@@ -1,5 +1,8 @@
 # Petit dé apprend à parler à papa
 
+Lien vers la correction :
+https://github.com/ThomasLaforge/petit-de-et-son-papa
+
 ## Introduction
 
 Pour rappel, nous avons appris que pour communiquer de l'enfant au parent, on utilise une fonction que l'on donne en propriété à l'enfant.

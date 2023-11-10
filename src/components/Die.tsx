@@ -16,8 +16,8 @@ export default function Die(props: { onRoll: (newValue: number) => void }) {
 
     const roll = useCallback(() => {
         const rand = Math.ceil(Math.random()*6)
-        props.onRoll(rand);
-        setValue(rand)
+        props.onRoll(rand); // Pour faire remonter la nouvelle valeur au parent "App".
+        setValue(rand) // Toujours modifier la valeur en dernier dans la fonction !
     }, [props.onRoll])
 
     return (
